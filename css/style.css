@@ -1518,13 +1518,13 @@ h3 {
 
 @media (max-width: 799px) {
   .slider_bg_1 {
-    background-image: url(../img/baliho\ .jpeg);
+    background-image: url(../img/ASETBARU/JUMBOTRON\ -\ MOBILE.jpg);
   }
 }
 
 @media (min-width: 800px) {
   .slider_bg_1 {
-    background-image: url(../img/ASETBARU/HERO\ POSTER\ BARU.png);
+    background-image: url(../img/ASETBARU/JUMBOTRON\ BARU\ -\ LABTOP.jpg);
   }
 }
 
