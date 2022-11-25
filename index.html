@@ -136,8 +136,8 @@
               <div class="shap_3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
                 <img class="ms-4" src="img/ASET SRC/PATTERN - JALAN SEHAT.png" alt="" />
               </div>
-              <div class="thumb_inner wow fadeInUp rounded-circle" data-wow-duration="1s" data-wow-delay=".3s">
-                <img src="img/ASETBARU/JALAN SEHAT BARU (WHITE) - SRC.jpeg" class="rounded" alt="" />
+              <div class="thumb_inner wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                <img src="img/ASETBARU/JALAN SEHAT BARU (WHITE) - SRC.jpeg" class="" alt="" />
               </div>
             </div>
           </div>
@@ -151,7 +151,8 @@
               <p1 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".6s">Info syarat dan lokasi pendaftaran bisa kamu akses di sini</p1>
               <br />
               <br />
-              <button scr=""  type="button" class="btn btn-src btn-lgs">Daftar Sekarang</button>
+              <a scr=""  class="btn btn-lg btn-src text-white" data-dismiss="modal">Hubungi Kami</a>
+              <button type="button" data-toggle="modal" data-target="#Modal-simple-demo" class="btn btn-src btn-lgs" style="display:none;">Modal Trigger</button>
 
 <!-- Modal -->
 <div class="modal fade show" data-backdrop="false" id="Modal-simple-demo" tabindex="-1" role="dialog" aria-labelledby="Modal-simple-demo-label" aria-hidden="true">
@@ -253,7 +254,7 @@
                       <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Jalan Sehat</h4>
                     </div>
                     <div class="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                      <img src="img/ASET SRC/JALAN SANTAI - RD.jpg" alt="" />
+                      <img src="img/ASET SRC/JALAN SANTAI - RD.jpg" class="rounded" alt="" />
                     </div>
                     <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s"></h4>
                   </div>
@@ -484,7 +485,9 @@
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                All rights reserved <i class="" aria-hidden="true"></i> by <a href="#" target="_blank">Pesta Ritel Celebes 2022</a>
+                All rights reserved <i class="" aria-hidden="true"></i> by <a href="#" target="_blank">
+                  <br>
+                  Pesta Ritel Celebes 2022</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
@@ -525,6 +528,6 @@
     <script src="js/main.js"></script>
 
     <!-- POP UP -->
-    <script>$('.btn-src').click();</script>
+    <script>$('[data-toggle=modal]').click();</script>
   </body>
 </html>
