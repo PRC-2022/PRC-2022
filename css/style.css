@@ -1518,13 +1518,15 @@ h3 {
 
 @media (max-width: 799px) {
   .slider_bg_1 {
-    background-image: url(../img/ASETBARU/JUMBOTRON\ -\ MOBILE.jpg);
+    background-image: url(../img/ASETBARU/JUMBOTRON\ -\ MOBILE\ copy.jpg);
+    -o-object-fit: cover;
   }
 }
 
 @media (min-width: 800px) {
   .slider_bg_1 {
-    background-image: url(../img/ASETBARU/JUMBOTRON\ BARU\ -\ LABTOP.jpg);
+    background-image: url(../img/banner123\ copy.jpg);
+    object-fit: cover;
   }
 }
 
