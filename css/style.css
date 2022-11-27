@@ -211,6 +211,9 @@ h3 {
   background: #000000;
 }
 
+.red_bg {
+  background: #ff4533;
+}
 /* gradient BG  */
 
 /* line 139, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -2324,7 +2327,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_brand.scss */
 .brand_area {
-  padding-top: 150px;
+  padding-top: px;
 }
 
 @media (max-width: 767px) {
